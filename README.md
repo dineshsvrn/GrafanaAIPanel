@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GrafanaAIPanel
 An AI-powered Grafana panel that transforms dashboards from passive visualizations into intelligent systems by automatically analysing metrics and delivering actionable insights and recommendations.
 =======
@@ -169,4 +168,3 @@ Recommended approach:
 
 Auth:
 - `SERVICE_API_KEY` (header `X-API-Key`) or `SERVICE_EMBED_TOKEN` (query `?token=`)
->>>>>>> 3b9ad3e (Initial commit - Grafana AI Panel with insights and recommendations)
