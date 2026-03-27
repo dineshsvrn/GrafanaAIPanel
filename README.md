@@ -7,9 +7,9 @@ Fetch a Grafana dashboard definition via the Grafana HTTP API, summarize it, and
 
 ## What this is (and isnâ€™t)
 
-- âœ… An end-to-end prototype you can run as a CLI or a small HTTP service.
-- âœ… Works even if your metrics come from Oracle Enterprise Manager (OEM) as long as Grafana is already displaying them.
-- âŒ It does **not** execute panel queries to pull raw time series (Grafanaâ€™s `/api/ds/query` differs per datasource and panel type). Instead, it analyzes the dashboard definition (panels, thresholds, units, variables, etc.). You can extend it later to fetch panel renders or datasource queries.
+- An end-to-end prototype you can run as a CLI or a small HTTP service.
+- Works even if your metrics come from Oracle Enterprise Manager (OEM) as long as Grafana is already displaying them.
+- It does **not** execute panel queries to pull raw time series (Grafana's `/api/ds/query` differs per datasource and panel type). Instead, it analyzes the dashboard definition (panels, thresholds, units, variables, etc.). You can extend it later to fetch panel renders or datasource queries.
 
 ## Setup
 
