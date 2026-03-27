@@ -1,0 +1,36 @@
+[project]
+name = "grafana-ai"
+version = "0.1.0"
+description = "Analyze Grafana dashboards and produce AI recommendations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "pydantic>=2.6.0",
+  "pydantic-settings>=2.2.0",
+  "typer>=0.12.0",
+  "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+openai = [
+  "openai>=1.0.0",
+]
+server = [
+  "fastapi>=0.110.0",
+  "uvicorn>=0.27.0",
+]
+
+[project.scripts]
+grafana-ai = "grafana_ai.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,2 @@
+[console_scripts]
+grafana-ai = grafana_ai.cli:app

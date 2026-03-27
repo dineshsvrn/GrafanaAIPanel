@@ -1,0 +1,26 @@
+﻿{
+  "name": "grafana-ai-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Grafana panel plugin to analyze dashboard time series and show AI recommendations.",
+  "engines": {
+    "node": ">=18 <21"
+  },
+  "scripts": {
+    "dev": "grafana-toolkit plugin:dev",
+    "build": "grafana-toolkit plugin:build",
+    "lint": "grafana-toolkit plugin:lint",
+    "test": "grafana-toolkit plugin:test"
+  },
+  "dependencies": {
+    "@grafana/data": "^11.5.0",
+    "@grafana/runtime": "^11.5.0",
+    "@grafana/ui": "^11.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "^6.4.0",
+    "typescript": "^5.4.0"
+  }
+}

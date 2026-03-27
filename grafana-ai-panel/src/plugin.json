@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://grafana.com/schemas/plugin/v2.json",
+  "type": "panel",
+  "name": "Grafana AI Recommendations",
+  "id": "dragonsage-grafana-ai-panel",
+  "info": {
+    "description": "Runs in the user's Grafana session, queries /api/ds/query for panels, and shows AI recommendations.",
+    "author": { "name": "DragonSage" },
+    "keywords": ["ai", "grafana", "oracle"],
+    "version": "0.1.0",
+    "updated": "2026-03-24"
+  },
+  "dependencies": {
+    "grafanaVersion": ">=11.0.0",
+    "plugins": []
+  }
+}
