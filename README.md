@@ -5,7 +5,7 @@ An AI-powered Grafana panel that transforms dashboards from passive visualizatio
 
 Fetch a Grafana dashboard definition via the Grafana HTTP API, summarize it, and send it to an LLM to get actionable recommendations (dashboard hygiene, alerting gaps, capacity planning, and Oracle-focused suggestions).
 
-## What this is (and isnâ€™t)
+## What this is (and isn't)
 
 - An end-to-end prototype you can run as a CLI or a small HTTP service.
 - Works even if your metrics come from Oracle Enterprise Manager (OEM) as long as Grafana is already displaying them.
